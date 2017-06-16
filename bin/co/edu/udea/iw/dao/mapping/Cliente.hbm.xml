@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29-abr-2017 18:44:46 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="co.edu.udea.iw.dto.Cliente" table="clientes">
+        <id name="cedula" type="java.lang.String">
+            <column name="CEDULA" />
+            <generator class="assigned" />
+        </id>
+              
+        <property name="nombres" type="java.lang.String">
+            <column name="NOMBRES" length="30" not-null="true" />
+        </property>
+        
+         <property name="apellidos" type="java.lang.String">
+            <column name="APELLIDOS" length="30" not-null="true" />
+        </property>
+        
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" length="120" not-null="true"/>
+        </property>
+        
+        <property name="telefono" type="java.lang.String">
+            <column name="TELEFONO" length="10" not-null="true" />
+        </property>
+        
+        <property name="direccion" type="java.lang.String">
+            <column name="DIRECCION" length="30" not-null="true"/>
+        </property>
+        
+    </class>
+</hibernate-mapping>

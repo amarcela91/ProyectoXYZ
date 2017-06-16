@@ -1,0 +1,1482 @@
+SpringJUnit4ClassRunner constructor called with [class co.edu.udea.iw.impl.EncuestaImplTest].
+Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+Retrieved @ContextConfiguration attributes [{name=, value=[], classes=[], loader=interface org.springframework.test.context.ContextLoader, inheritInitializers=true, locations=[classpath:configuracion.xml], inheritLocations=true, initializers=[]}] for declaring class [co.edu.udea.iw.impl.EncuestaImplTest].
+Resolved context configuration attributes: [ContextConfigurationAttributes@c0663d declaringClass = 'co.edu.udea.iw.impl.EncuestaImplTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Resolving ContextLoader for context configuration attributes [ContextConfigurationAttributes@c0663d declaringClass = 'co.edu.udea.iw.impl.EncuestaImplTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Using ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@c0663d declaringClass = 'co.edu.udea.iw.impl.EncuestaImplTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@c0663d declaringClass = 'co.edu.udea.iw.impl.EncuestaImplTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+Processing context initializers for context configuration attributes [ContextConfigurationAttributes@c0663d declaringClass = 'co.edu.udea.iw.impl.EncuestaImplTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [co.edu.udea.iw.impl.EncuestaImplTest]
+@TestExecutionListeners is not present for class [co.edu.udea.iw.impl.EncuestaImplTest]: using defaults.
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a57a3b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a48474, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17d0578, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e84876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a485d2]
+Registering TestExecutionListener: org.springframework.test.context.web.ServletTestExecutionListener@1a57a3b
+Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a48474
+Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@17d0578
+Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e84876
+Registering TestExecutionListener: org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a485d2
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.iw.impl.EncuestaImplTest]
+beforeTestClass(): class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.iw.impl.EncuestaImplTest]
+prepareTestInstance(): instance [co.edu.udea.iw.impl.EncuestaImplTest@1efea79]
+Performing dependency injection for test context [[DefaultTestContext@19a81e8 testClass = EncuestaImplTest, testInstance = co.edu.udea.iw.impl.EncuestaImplTest@1efea79, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [configuracion.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-4.1.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/context/spring-context-4.1.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Resolved location pattern [classpath*:co/edu/udea/iw/rest/**/*.class] to resources []
+Loaded 18 bean definitions from location pattern [classpath:configuracion.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5792a0: startup date [Thu May 04 15:46:00 COT 2017]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@5792a0: org.springframework.beans.factory.support.DefaultListableBeanFactory@f08448: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@909f18]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@dd0edd]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f08448: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'connection' of type [java.sql.Connection]
+Found bean property 'connectionProperties' of type [java.util.Properties]
+Found bean property 'driverClassName' of type [java.lang.String]
+Found bean property 'logWriter' of type [java.io.PrintWriter]
+Found bean property 'loginTimeout' of type [int]
+Found bean property 'parentLogger' of type [java.util.logging.Logger]
+Found bean property 'password' of type [java.lang.String]
+Found bean property 'url' of type [java.lang.String]
+Found bean property 'username' of type [java.lang.String]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Finished creating instance of bean 'dataSource'
+Creating shared instance of singleton bean 'sessionFactory'
+Creating instance of bean 'sessionFactory'
+Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.orm.hibernate3.LocalSessionFactoryBean]
+Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.LocalSessionFactoryBean]
+Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'cacheRegionFactory' of type [org.hibernate.cache.RegionFactory]
+Found bean property 'cacheableMappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'collectionCacheStrategies' of type [java.util.Properties]
+Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+Found bean property 'configLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'configuration' of type [org.hibernate.cfg.Configuration]
+Found bean property 'configurationClass' of type [java.lang.Class]
+Found bean property 'dataSource' of type [javax.sql.DataSource]
+Found bean property 'entityCacheStrategies' of type [java.util.Properties]
+Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+Found bean property 'eventListeners' of type [java.util.Map]
+Found bean property 'exposeTransactionAwareSessionFactory' of type [boolean]
+Found bean property 'filterDefinitions' of type [[Lorg.hibernate.engine.FilterDefinition;]
+Found bean property 'hibernateProperties' of type [java.util.Properties]
+Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+Found bean property 'jtaTransactionManager' of type [javax.transaction.TransactionManager]
+Found bean property 'lobHandler' of type [org.springframework.jdbc.support.lob.LobHandler]
+Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+Found bean property 'object' of type [org.hibernate.SessionFactory]
+Found bean property 'objectType' of type [java.lang.Class]
+Found bean property 'schemaUpdate' of type [boolean]
+Found bean property 'singleton' of type [boolean]
+Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+Found bean property 'useTransactionAwareDataSource' of type [boolean]
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1d8ba08
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@158b42f
+Adding type registration yes_no -> org.hibernate.type.YesNoType@17275fc
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration char -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration int -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@adbc9d
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration string -> org.hibernate.type.StringType@11d00c0
+Adding type registration java.lang.String -> org.hibernate.type.StringType@11d00c0
+Adding type registration url -> org.hibernate.type.UrlType@78bef
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@78bef
+Adding type registration date -> org.hibernate.type.DateType@102bbb1
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@102bbb1
+Adding type registration time -> org.hibernate.type.TimeType@8d2484
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@8d2484
+Adding type registration timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@afa419
+Adding type registration calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@505305
+Adding type registration locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration class -> org.hibernate.type.ClassType@3118b0
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3118b0
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@fc695d
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@fcd809
+Adding type registration binary -> org.hibernate.type.BinaryType@1d296da
+Adding type registration byte[] -> org.hibernate.type.BinaryType@1d296da
+Adding type registration [B -> org.hibernate.type.BinaryType@1d296da
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration image -> org.hibernate.type.ImageType@555ebf
+Adding type registration characters -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration char[] -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration [C -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration text -> org.hibernate.type.TextType@127514f
+Adding type registration blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@800aaa
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1d5509a
+Adding type registration clob -> org.hibernate.type.ClobType@794848
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@794848
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5471
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1438269
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1fe41ea
+Adding type registration serializable -> org.hibernate.type.SerializableType@269709
+Adding type registration object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@17fd62
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@297b3a
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@162f559
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@12c9a9c
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@178a76
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1a4c865
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1d82cf5
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4fa968
+Hibernate Commons Annotations 3.2.0.Final
+Hibernate 3.6.10.Final
+hibernate.properties not found
+Bytecode provider name : javassist
+using JDK 1.4 java.sql.Timestamp handling
+Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+Processing hbm.xml files
+Mapping class: co.edu.udea.iw.dto.Cliente -> clientes
+Mapped property: cedula -> CEDULA
+Mapped property: nombres -> NOMBRES
+Mapped property: apellidos -> APELLIDOS
+Mapped property: email -> EMAIL
+Mapped property: telefono -> TELEFONO
+Mapped property: direccion -> DIRECCION
+Mapping class: co.edu.udea.iw.dto.Encuesta -> ENCUESTA
+Mapped property: codigo -> CODIGO
+Mapped property: pregunta1 -> PREGUNTA1
+Mapped property: pregunta2 -> PREGUNTA2
+Mapped property: pregunta3 -> PREGUNTA3
+Mapped property: pregunta4 -> PREGUNTA4
+Mapping class: co.edu.udea.iw.dto.Peticion -> peticiones
+Mapped property: codigo -> CODIGO
+Mapped property: cliente -> CLIENTE
+Mapped property: peticion2 -> CODIGO, CLIENTE
+Mapped property: texto -> TEXTO
+Mapped property: fechaCreacion -> FECHACREACION
+Mapped property: resuelto -> RESUELTO
+Mapping class: co.edu.udea.iw.dto.Rol -> roles
+Mapped property: codigo -> CODIGO
+Mapped property: nombre -> NOMBRE
+Mapping class: co.edu.udea.iw.dto.Usuario -> usuarios
+Mapped property: login -> LOGIN
+Mapped property: nombres -> NOMBRES
+Mapped property: apellidos -> APELLIDOS
+Mapped property: contrasena -> CONTRASENA
+Mapped property: rol -> ROL
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+resolving reference to class: co.edu.udea.iw.dto.Cliente
+resolving reference to class: co.edu.udea.iw.dto.Rol
+Hibernate Validator not found: ignoring
+Building new Hibernate SessionFactory
+Preparing to build session factory with filters : {}
+Processing hbm.xml files
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+resolving reference to class: co.edu.udea.iw.dto.Cliente
+resolving reference to class: co.edu.udea.iw.dto.Rol
+Legacy Validator not present in classpath, ignoring event listener registration
+Search not present in classpath, ignoring event listener registration.
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+composite-id class does not override equals(): co.edu.udea.iw.dto.Peticion2
+composite-id class does not override hashCode(): co.edu.udea.iw.dto.Peticion2
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/xyz]
+Using dialect: org.hibernate.dialect.MySQLDialect
+Database ->
+       name : MySQL
+    version : 5.7.11
+      major : 5
+      minor : 7
+Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Echoing all SQL to stdout
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+building session factory
+Statistics initialized [enabled=false]}
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1d8ba08
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@158b42f
+Adding type registration yes_no -> org.hibernate.type.YesNoType@17275fc
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration char -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration int -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@adbc9d
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration string -> org.hibernate.type.StringType@11d00c0
+Adding type registration java.lang.String -> org.hibernate.type.StringType@11d00c0
+Adding type registration url -> org.hibernate.type.UrlType@78bef
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@78bef
+Adding type registration date -> org.hibernate.type.DateType@102bbb1
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@102bbb1
+Adding type registration time -> org.hibernate.type.TimeType@8d2484
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@8d2484
+Adding type registration timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@afa419
+Adding type registration calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@505305
+Adding type registration locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration class -> org.hibernate.type.ClassType@3118b0
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3118b0
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@fc695d
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@fcd809
+Adding type registration binary -> org.hibernate.type.BinaryType@1d296da
+Adding type registration byte[] -> org.hibernate.type.BinaryType@1d296da
+Adding type registration [B -> org.hibernate.type.BinaryType@1d296da
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration image -> org.hibernate.type.ImageType@555ebf
+Adding type registration characters -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration char[] -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration [C -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration text -> org.hibernate.type.TextType@127514f
+Adding type registration blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@800aaa
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1d5509a
+Adding type registration clob -> org.hibernate.type.ClobType@794848
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@794848
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5471
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1438269
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1fe41ea
+Adding type registration serializable -> org.hibernate.type.SerializableType@269709
+Adding type registration object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@16025c5
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1284218
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7a7f2a
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@a5b703
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@a7ed1f
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1a247d1
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@b2fc20
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@14c4b1a
+Adding type registration clob -> org.hibernate.type.ClobType@1b4dd34
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@794848
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1b4dd34
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@794848
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@19f158f
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@5471
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1efd90f
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1438269
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@d48653
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1d5509a
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@18729ff
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1fe41ea
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@115b28
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@800aaa
+Adding type registration blob -> org.hibernate.type.BlobType@38d0b5
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@13795b6
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@38d0b5
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13795b6
+Session factory constructed with filter configurations : {}
+instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_121\jre\bin, java.vm.version=25.121-b13, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.script=, user.country=ES, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Adriana\workspace1\ProyectoXYZ, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed, os.arch=x86, hibernate.check_nullability=false, java.io.tmpdir=C:\Users\Adriana\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/JAVA2/bin/client;C:/Program Files/JAVA2/bin;C:/Program Files/JAVA2/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS;C:\WINDOWS\system32;C:\Program Files\Java\jdk1.8.0_121\bin;F:\runtime\win32;F:\bin;F:\polyspace\bin;C:\Program Files\nodejs\;C:\play;C:\Program Files\Git\cmd;C:\Program Files\Heroku\bin;C:\Program Files\Skype\Phone\;C:\sonar-runner-2.4\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Adriana\AppData\Roaming\npm;;C:\Users\Adriana\Desktop\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot Client Compiler, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, os.version=6.1, user.home=C:\Users\Adriana, user.timezone=America/Bogota, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=Cp1252, user.name=Adriana, java.class.path=C:\Users\Adriana\workspace1\ProyectoXYZ\bin;C:\Users\Adriana\Desktop\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\Adriana\Desktop\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\annotations-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina-ant.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina-ha.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina-tribes.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\ecj-4.4.2.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\el-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\jasper.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\jasper-el.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\jsp-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\servlet-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat7-websocket.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-coyote.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-dbcp.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-i18n-es.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-i18n-fr.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-i18n-ja.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-jdbc.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-util.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\websocket-api.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\02 Implementando JDBC con DAO\mysql-connector-java-5.1.22-bin.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\antlr-2.7.6.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\commons-collections-3.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\dom4j-1.6.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\hibernate3.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\javassist-3.12.0.GA.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\jta-1.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\log4j-1.2.17.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\slf4j-api-1.6.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\slf4j-log4j12-1.7.2.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\05 Implementando Spring\log4j-1.2.17.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\com.springsource.org.aopalliance-1.0.0.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\commons-logging.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-aop-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-beans-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-context-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-core-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-expression-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-jdbc-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-orm-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-test-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-tx-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-web-4.1.6.RELEASE.jar;/C:/Users/Adriana/Desktop/eclipse/configuration/org.eclipse.osgi/390/0/.cp/;/C:/Users/Adriana/Desktop/eclipse/configuration/org.eclipse.osgi/389/0/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, javax.persistence.validation.mode=none, java.vm.specification.version=1.8, sun.arch.data.model=32, java.home=C:\Program Files\Java\jdk1.8.0_121\jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 54219 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames co.edu.udea.iw.impl.EncuestaImplTest, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=es, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Static SQL for entity: co.edu.udea.iw.dto.Usuario
+ Version select: select LOGIN from usuarios where LOGIN =?
+ Snapshot select: select usuario_.LOGIN, usuario_.NOMBRES as NOMBRES4_, usuario_.APELLIDOS as APELLIDOS4_, usuario_.CONTRASENA as CONTRASENA4_, usuario_.ROL as ROL4_ from usuarios usuario_ where usuario_.LOGIN=?
+ Insert 0: insert into usuarios (NOMBRES, APELLIDOS, CONTRASENA, ROL, LOGIN) values (?, ?, ?, ?, ?)
+ Update 0: update usuarios set NOMBRES=?, APELLIDOS=?, CONTRASENA=?, ROL=? where LOGIN=?
+ Delete 0: delete from usuarios where LOGIN=?
+Static SQL for entity: co.edu.udea.iw.dto.Encuesta
+ Version select: select CODIGO from ENCUESTA where CODIGO =?
+ Snapshot select: select encuesta_.CODIGO, encuesta_.PREGUNTA1 as PREGUNTA2_1_, encuesta_.PREGUNTA2 as PREGUNTA3_1_, encuesta_.PREGUNTA3 as PREGUNTA4_1_, encuesta_.PREGUNTA4 as PREGUNTA5_1_ from ENCUESTA encuesta_ where encuesta_.CODIGO=?
+ Insert 0: insert into ENCUESTA (PREGUNTA1, PREGUNTA2, PREGUNTA3, PREGUNTA4, CODIGO) values (?, ?, ?, ?, ?)
+ Update 0: update ENCUESTA set PREGUNTA1=?, PREGUNTA2=?, PREGUNTA3=?, PREGUNTA4=? where CODIGO=?
+ Delete 0: delete from ENCUESTA where CODIGO=?
+Static SQL for entity: co.edu.udea.iw.dto.Cliente
+ Version select: select CEDULA from clientes where CEDULA =?
+ Snapshot select: select cliente_.CEDULA, cliente_.NOMBRES as NOMBRES0_, cliente_.APELLIDOS as APELLIDOS0_, cliente_.EMAIL as EMAIL0_, cliente_.TELEFONO as TELEFONO0_, cliente_.DIRECCION as DIRECCION0_ from clientes cliente_ where cliente_.CEDULA=?
+ Insert 0: insert into clientes (NOMBRES, APELLIDOS, EMAIL, TELEFONO, DIRECCION, CEDULA) values (?, ?, ?, ?, ?, ?)
+ Update 0: update clientes set NOMBRES=?, APELLIDOS=?, EMAIL=?, TELEFONO=?, DIRECCION=? where CEDULA=?
+ Delete 0: delete from clientes where CEDULA=?
+Static SQL for entity: co.edu.udea.iw.dto.Peticion
+ Version select: select CODIGO, CLIENTE from peticiones where CODIGO =? and CLIENTE =?
+ Snapshot select: select peticion_.CODIGO, peticion_.CLIENTE, peticion_.TEXTO as TEXTO2_, peticion_.FECHACREACION as FECHACRE4_2_, peticion_.RESUELTO as RESUELTO2_ from peticiones peticion_ where peticion_.CODIGO=? and peticion_.CLIENTE=?
+ Insert 0: insert into peticiones (TEXTO, FECHACREACION, RESUELTO, CODIGO, CLIENTE) values (?, ?, ?, ?, ?)
+ Update 0: update peticiones set TEXTO=?, FECHACREACION=?, RESUELTO=? where CODIGO=? and CLIENTE=?
+ Delete 0: delete from peticiones where CODIGO=? and CLIENTE=?
+Static SQL for entity: co.edu.udea.iw.dto.Rol
+ Version select: select CODIGO from roles where CODIGO =?
+ Snapshot select: select rol_.CODIGO, rol_.NOMBRE as NOMBRE3_ from roles rol_ where rol_.CODIGO=?
+ Insert 0: insert into roles (NOMBRE, CODIGO) values (?, ?)
+ Update 0: update roles set NOMBRE=? where CODIGO=?
+ Delete 0: delete from roles where CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Usuario [NONE]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Usuario [READ]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Usuario [UPGRADE]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [UPGRADE_NOWAIT]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [FORCE]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [PESSIMISTIC_READ]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Usuario [PESSIMISTIC_WRITE]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [PESSIMISTIC_FORCE_INCREMENT]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [OPTIMISTIC]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Usuario [OPTIMISTIC_FORCE_INCREMENT]: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Usuario: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Usuario: select usuario0_.LOGIN as LOGIN4_0_, usuario0_.NOMBRES as NOMBRES4_0_, usuario0_.APELLIDOS as APELLIDOS4_0_, usuario0_.CONTRASENA as CONTRASENA4_0_, usuario0_.ROL as ROL4_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [NONE]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [READ]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [UPGRADE]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [UPGRADE_NOWAIT]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [FORCE]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [PESSIMISTIC_READ]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Encuesta [PESSIMISTIC_WRITE]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [PESSIMISTIC_FORCE_INCREMENT]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [OPTIMISTIC]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [OPTIMISTIC_FORCE_INCREMENT]: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Encuesta: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Encuesta: select encuesta0_.CODIGO as CODIGO1_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_1_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_1_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_1_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_1_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Cliente [NONE]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Cliente [READ]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Cliente [UPGRADE]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [UPGRADE_NOWAIT]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [FORCE]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [PESSIMISTIC_READ]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Cliente [PESSIMISTIC_WRITE]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [PESSIMISTIC_FORCE_INCREMENT]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [OPTIMISTIC]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Cliente [OPTIMISTIC_FORCE_INCREMENT]: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Cliente: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Cliente: select cliente0_.CEDULA as CEDULA0_0_, cliente0_.NOMBRES as NOMBRES0_0_, cliente0_.APELLIDOS as APELLIDOS0_0_, cliente0_.EMAIL as EMAIL0_0_, cliente0_.TELEFONO as TELEFONO0_0_, cliente0_.DIRECCION as DIRECCION0_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Peticion [NONE]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Peticion [READ]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Peticion [UPGRADE]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [UPGRADE_NOWAIT]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [FORCE]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [PESSIMISTIC_READ]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Peticion [PESSIMISTIC_WRITE]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [PESSIMISTIC_FORCE_INCREMENT]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [OPTIMISTIC]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Peticion [OPTIMISTIC_FORCE_INCREMENT]: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Peticion: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Peticion: select peticion0_.CODIGO as CODIGO2_0_, peticion0_.CLIENTE as CLIENTE2_0_, peticion0_.TEXTO as TEXTO2_0_, peticion0_.FECHACREACION as FECHACRE4_2_0_, peticion0_.RESUELTO as RESUELTO2_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Rol [NONE]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Rol [READ]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Rol [UPGRADE]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [UPGRADE_NOWAIT]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [FORCE]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [PESSIMISTIC_READ]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Rol [PESSIMISTIC_WRITE]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [PESSIMISTIC_FORCE_INCREMENT]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [OPTIMISTIC]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Rol [OPTIMISTIC_FORCE_INCREMENT]: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Rol: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Rol: select rol0_.CODIGO as CODIGO3_0_, rol0_.NOMBRE as NOMBRE3_0_ from roles rol0_ where rol0_.CODIGO=?
+initializing class SessionFactoryObjectFactory
+registered: 32328003-7ed2-4f6e-ab95-cb1d72ff726b (unnamed)
+Not binding factory to JNDI, no JNDI name configured
+instantiated session factory
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Finished creating instance of bean 'sessionFactory'
+Creating shared instance of singleton bean 'transactionManager'
+Creating instance of bean 'transactionManager'
+Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+Found bean property 'autodetectDataSource' of type [boolean]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'dataSource' of type [javax.sql.DataSource]
+Found bean property 'defaultTimeout' of type [int]
+Found bean property 'earlyFlushBeforeCommit' of type [boolean]
+Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+Found bean property 'entityInterceptorBeanName' of type [java.lang.String]
+Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+Found bean property 'hibernateManagedSession' of type [boolean]
+Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+Found bean property 'nestedTransactionAllowed' of type [boolean]
+Found bean property 'prepareConnection' of type [boolean]
+Found bean property 'resourceFactory' of type [java.lang.Object]
+Found bean property 'rollbackOnCommitFailure' of type [boolean]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Found bean property 'transactionSynchronization' of type [int]
+Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+Found bean property 'validateExistingTransaction' of type [boolean]
+Returning cached instance of singleton bean 'dataSource'
+Returning cached instance of singleton bean 'sessionFactory'
+Invoking afterPropertiesSet() on bean with name 'transactionManager'
+Finished creating instance of bean 'transactionManager'
+Creating shared instance of singleton bean 'clienteDao'
+Creating instance of bean 'clienteDao'
+Eagerly caching bean 'clienteDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.dao.hibernate.ClienteDAOHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.iw.dao.hibernate.ClienteDAOHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'clienteDao'
+Creating shared instance of singleton bean 'usuarioDao'
+Creating instance of bean 'usuarioDao'
+Eagerly caching bean 'usuarioDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.dao.hibernate.UsuarioDAOHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.iw.dao.hibernate.UsuarioDAOHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'usuarioDao'
+Creating shared instance of singleton bean 'peticionesDao'
+Creating instance of bean 'peticionesDao'
+Eagerly caching bean 'peticionesDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.dao.hibernate.PeticionDAOHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.iw.dao.hibernate.PeticionDAOHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'peticionesDao'
+Creating shared instance of singleton bean 'encuestaDao'
+Creating instance of bean 'encuestaDao'
+Eagerly caching bean 'encuestaDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.dao.hibernate.EncuestaDAOHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.iw.dao.hibernate.EncuestaDAOHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'encuestaDao'
+Creating shared instance of singleton bean 'rolDao'
+Creating instance of bean 'rolDao'
+Eagerly caching bean 'rolDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.dao.hibernate.RolDAOHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.iw.dao.hibernate.RolDAOHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'rolDao'
+Creating shared instance of singleton bean 'clienteImpl'
+Creating instance of bean 'clienteImpl'
+Eagerly caching bean 'clienteImpl' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.impl.ClienteImpl]
+Caching PropertyDescriptors for class [co.edu.udea.iw.impl.ClienteImpl]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'clienteDAO' of type [co.edu.udea.iw.dao.ClienteDAO]
+Returning cached instance of singleton bean 'clienteDao'
+Finished creating instance of bean 'clienteImpl'
+Creating shared instance of singleton bean 'usuarioImpl'
+Creating instance of bean 'usuarioImpl'
+Eagerly caching bean 'usuarioImpl' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.impl.UsuarioImpl]
+Caching PropertyDescriptors for class [co.edu.udea.iw.impl.UsuarioImpl]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'rolDAO' of type [co.edu.udea.iw.dao.RolDAO]
+Found bean property 'usuarioDAO' of type [co.edu.udea.iw.dao.UsuarioDAO]
+Returning cached instance of singleton bean 'usuarioDao'
+Returning cached instance of singleton bean 'rolDao'
+Finished creating instance of bean 'usuarioImpl'
+Creating shared instance of singleton bean 'peticionImpl'
+Creating instance of bean 'peticionImpl'
+Eagerly caching bean 'peticionImpl' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.iw.impl.PeticionImpl]
+Caching PropertyDescriptors for class [co.edu.udea.iw.impl.PeticionImpl]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'clienteDAO' of type [co.edu.udea.iw.dao.ClienteDAO]
+Found bean property 'peticionDAO' of type [co.edu.udea.iw.dao.PeticionDAO]
+No bean named 'peticionDao' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@f08448: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'peticionImpl' defined in class path resource [configuracion.xml]: Cannot resolve reference to bean 'peticionDao' while setting bean property 'peticionDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:68)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:86)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:259)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:261)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:219)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 43 more
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f08448: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Invoking destroy() on bean with name 'sessionFactory'
+Closing Hibernate SessionFactory
+closing
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a48474] to prepare test instance [co.edu.udea.iw.impl.EncuestaImplTest@1efea79]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:259)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:261)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:219)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'peticionImpl' defined in class path resource [configuracion.xml]: Cannot resolve reference to bean 'peticionDao' while setting bean property 'peticionDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:68)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:86)
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 43 more
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.iw.impl.EncuestaImplTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.iw.impl.EncuestaImplTest]
+prepareTestInstance(): instance [co.edu.udea.iw.impl.EncuestaImplTest@154e218]
+Performing dependency injection for test context [[DefaultTestContext@19a81e8 testClass = EncuestaImplTest, testInstance = co.edu.udea.iw.impl.EncuestaImplTest@154e218, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [configuracion.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-4.1.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/context/spring-context-4.1.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Resolved location pattern [classpath*:co/edu/udea/iw/rest/**/*.class] to resources []
+Loaded 18 bean definitions from location pattern [classpath:configuracion.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@8bcbd: startup date [Thu May 04 15:46:13 COT 2017]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@8bcbd: org.springframework.beans.factory.support.DefaultListableBeanFactory@6ef134: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1308786]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@19a2c08]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6ef134: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Finished creating instance of bean 'dataSource'
+Creating shared instance of singleton bean 'sessionFactory'
+Creating instance of bean 'sessionFactory'
+Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1d8ba08
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@158b42f
+Adding type registration yes_no -> org.hibernate.type.YesNoType@17275fc
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration char -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration int -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@adbc9d
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration string -> org.hibernate.type.StringType@11d00c0
+Adding type registration java.lang.String -> org.hibernate.type.StringType@11d00c0
+Adding type registration url -> org.hibernate.type.UrlType@78bef
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@78bef
+Adding type registration date -> org.hibernate.type.DateType@102bbb1
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@102bbb1
+Adding type registration time -> org.hibernate.type.TimeType@8d2484
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@8d2484
+Adding type registration timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@afa419
+Adding type registration calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@505305
+Adding type registration locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration class -> org.hibernate.type.ClassType@3118b0
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3118b0
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@fc695d
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@fcd809
+Adding type registration binary -> org.hibernate.type.BinaryType@1d296da
+Adding type registration byte[] -> org.hibernate.type.BinaryType@1d296da
+Adding type registration [B -> org.hibernate.type.BinaryType@1d296da
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration image -> org.hibernate.type.ImageType@555ebf
+Adding type registration characters -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration char[] -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration [C -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration text -> org.hibernate.type.TextType@127514f
+Adding type registration blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@800aaa
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1d5509a
+Adding type registration clob -> org.hibernate.type.ClobType@794848
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@794848
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5471
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1438269
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1fe41ea
+Adding type registration serializable -> org.hibernate.type.SerializableType@269709
+Adding type registration object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@87f8ec
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@43d039
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1787180
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@11cfb8b
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@e92c5c
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@e1ef60
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@356acd
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6f0da3
+Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+Processing hbm.xml files
+Mapping class: co.edu.udea.iw.dto.Cliente -> clientes
+Mapped property: cedula -> CEDULA
+Mapped property: nombres -> NOMBRES
+Mapped property: apellidos -> APELLIDOS
+Mapped property: email -> EMAIL
+Mapped property: telefono -> TELEFONO
+Mapped property: direccion -> DIRECCION
+Mapping class: co.edu.udea.iw.dto.Encuesta -> ENCUESTA
+Mapped property: codigo -> CODIGO
+Mapped property: pregunta1 -> PREGUNTA1
+Mapped property: pregunta2 -> PREGUNTA2
+Mapped property: pregunta3 -> PREGUNTA3
+Mapped property: pregunta4 -> PREGUNTA4
+Mapping class: co.edu.udea.iw.dto.Peticion -> peticiones
+Mapped property: codigo -> CODIGO
+Mapped property: cliente -> CLIENTE
+Mapped property: peticion2 -> CODIGO, CLIENTE
+Mapped property: texto -> TEXTO
+Mapped property: fechaCreacion -> FECHACREACION
+Mapped property: resuelto -> RESUELTO
+Mapping class: co.edu.udea.iw.dto.Rol -> roles
+Mapped property: codigo -> CODIGO
+Mapped property: nombre -> NOMBRE
+Mapping class: co.edu.udea.iw.dto.Usuario -> usuarios
+Mapped property: login -> LOGIN
+Mapped property: nombres -> NOMBRES
+Mapped property: apellidos -> APELLIDOS
+Mapped property: contrasena -> CONTRASENA
+Mapped property: rol -> ROL
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+resolving reference to class: co.edu.udea.iw.dto.Cliente
+resolving reference to class: co.edu.udea.iw.dto.Rol
+Hibernate Validator not found: ignoring
+Building new Hibernate SessionFactory
+Preparing to build session factory with filters : {}
+Processing hbm.xml files
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+resolving reference to class: co.edu.udea.iw.dto.Cliente
+resolving reference to class: co.edu.udea.iw.dto.Rol
+Legacy Validator not present in classpath, ignoring event listener registration
+Search not present in classpath, ignoring event listener registration.
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+composite-id class does not override equals(): co.edu.udea.iw.dto.Peticion2
+composite-id class does not override hashCode(): co.edu.udea.iw.dto.Peticion2
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/xyz]
+Using dialect: org.hibernate.dialect.MySQLDialect
+Database ->
+       name : MySQL
+    version : 5.7.11
+      major : 5
+      minor : 7
+Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Echoing all SQL to stdout
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+building session factory
+Statistics initialized [enabled=false]}
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@572421
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1d8ba08
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@158b42f
+Adding type registration yes_no -> org.hibernate.type.YesNoType@17275fc
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7db1f
+Adding type registration character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration char -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ec71f8
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ebb011
+Adding type registration integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration int -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@13b84b8
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration long -> org.hibernate.type.LongType@adbc9d
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@adbc9d
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1662a0b
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7ddf94
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@13a5bf6
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@19aaa5
+Adding type registration string -> org.hibernate.type.StringType@11d00c0
+Adding type registration java.lang.String -> org.hibernate.type.StringType@11d00c0
+Adding type registration url -> org.hibernate.type.UrlType@78bef
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@78bef
+Adding type registration date -> org.hibernate.type.DateType@102bbb1
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@102bbb1
+Adding type registration time -> org.hibernate.type.TimeType@8d2484
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@8d2484
+Adding type registration timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@f2bd5b
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@afa419
+Adding type registration calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@15834f2
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@505305
+Adding type registration locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@198f307
+Adding type registration currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@694b3f
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@197fbdb
+Adding type registration class -> org.hibernate.type.ClassType@3118b0
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3118b0
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@12ea799
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@fc695d
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@fcd809
+Adding type registration binary -> org.hibernate.type.BinaryType@1d296da
+Adding type registration byte[] -> org.hibernate.type.BinaryType@1d296da
+Adding type registration [B -> org.hibernate.type.BinaryType@1d296da
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cb480
+Adding type registration image -> org.hibernate.type.ImageType@555ebf
+Adding type registration characters -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration char[] -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration [C -> org.hibernate.type.CharArrayType@d9d12d
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@a4337a
+Adding type registration text -> org.hibernate.type.TextType@127514f
+Adding type registration blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13795b6
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@800aaa
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1d5509a
+Adding type registration clob -> org.hibernate.type.ClobType@794848
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@794848
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5471
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1438269
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1fe41ea
+Adding type registration serializable -> org.hibernate.type.SerializableType@269709
+Adding type registration object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1322f9d
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@ef27a8
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@36a7db
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@ebd80
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@13c660a
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@f5ce22
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1aca718
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@fdec90
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@fdd473
+Adding type registration clob -> org.hibernate.type.ClobType@1b4dd34
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@794848
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1b4dd34
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@794848
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@19f158f
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@5471
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1efd90f
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1438269
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@d48653
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1d5509a
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@18729ff
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1fe41ea
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@115b28
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@800aaa
+Adding type registration blob -> org.hibernate.type.BlobType@38d0b5
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@13795b6
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@38d0b5
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13795b6
+Session factory constructed with filter configurations : {}
+instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_121\jre\bin, java.vm.version=25.121-b13, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.script=, user.country=ES, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Adriana\workspace1\ProyectoXYZ, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed, os.arch=x86, hibernate.check_nullability=false, java.io.tmpdir=C:\Users\Adriana\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/JAVA2/bin/client;C:/Program Files/JAVA2/bin;C:/Program Files/JAVA2/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS;C:\WINDOWS\system32;C:\Program Files\Java\jdk1.8.0_121\bin;F:\runtime\win32;F:\bin;F:\polyspace\bin;C:\Program Files\nodejs\;C:\play;C:\Program Files\Git\cmd;C:\Program Files\Heroku\bin;C:\Program Files\Skype\Phone\;C:\sonar-runner-2.4\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Adriana\AppData\Roaming\npm;;C:\Users\Adriana\Desktop\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot Client Compiler, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, os.version=6.1, user.home=C:\Users\Adriana, user.timezone=America/Bogota, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=Cp1252, user.name=Adriana, java.class.path=C:\Users\Adriana\workspace1\ProyectoXYZ\bin;C:\Users\Adriana\Desktop\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\Adriana\Desktop\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\annotations-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina-ant.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina-ha.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\catalina-tribes.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\ecj-4.4.2.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\el-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\jasper.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\jasper-el.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\jsp-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\servlet-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat7-websocket.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-api.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-coyote.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-dbcp.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-i18n-es.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-i18n-fr.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-i18n-ja.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-jdbc.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\tomcat-util.jar;C:\Users\Adriana\Desktop\apache-tomcat-7.0.75\lib\websocket-api.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\02 Implementando JDBC con DAO\mysql-connector-java-5.1.22-bin.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\antlr-2.7.6.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\commons-collections-3.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\dom4j-1.6.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\hibernate3.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\javassist-3.12.0.GA.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\jta-1.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\log4j-1.2.17.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\slf4j-api-1.6.1.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\03 Implementando Hibernate\slf4j-log4j12-1.7.2.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\ingWeb\Ingeniería Web\05 Implementando Spring\log4j-1.2.17.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\com.springsource.org.aopalliance-1.0.0.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\commons-logging.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-aop-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-beans-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-context-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-core-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-expression-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-jdbc-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-orm-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-test-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-tx-4.1.6.RELEASE.jar;C:\Users\Adriana\Documents\UdeA\IngenieriaWeb\LibreriasSpring\Spring4\spring-web-4.1.6.RELEASE.jar;/C:/Users/Adriana/Desktop/eclipse/configuration/org.eclipse.osgi/390/0/.cp/;/C:/Users/Adriana/Desktop/eclipse/configuration/org.eclipse.osgi/389/0/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, javax.persistence.validation.mode=none, java.vm.specification.version=1.8, sun.arch.data.model=32, java.home=C:\Program Files\Java\jdk1.8.0_121\jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 54219 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames co.edu.udea.iw.impl.EncuestaImplTest, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=es, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Static SQL for entity: co.edu.udea.iw.dto.Usuario
+ Version select: select LOGIN from usuarios where LOGIN =?
+ Snapshot select: select usuario_.LOGIN, usuario_.NOMBRES as NOMBRES14_, usuario_.APELLIDOS as APELLIDOS14_, usuario_.CONTRASENA as CONTRASENA14_, usuario_.ROL as ROL14_ from usuarios usuario_ where usuario_.LOGIN=?
+ Insert 0: insert into usuarios (NOMBRES, APELLIDOS, CONTRASENA, ROL, LOGIN) values (?, ?, ?, ?, ?)
+ Update 0: update usuarios set NOMBRES=?, APELLIDOS=?, CONTRASENA=?, ROL=? where LOGIN=?
+ Delete 0: delete from usuarios where LOGIN=?
+Static SQL for entity: co.edu.udea.iw.dto.Encuesta
+ Version select: select CODIGO from ENCUESTA where CODIGO =?
+ Snapshot select: select encuesta_.CODIGO, encuesta_.PREGUNTA1 as PREGUNTA2_11_, encuesta_.PREGUNTA2 as PREGUNTA3_11_, encuesta_.PREGUNTA3 as PREGUNTA4_11_, encuesta_.PREGUNTA4 as PREGUNTA5_11_ from ENCUESTA encuesta_ where encuesta_.CODIGO=?
+ Insert 0: insert into ENCUESTA (PREGUNTA1, PREGUNTA2, PREGUNTA3, PREGUNTA4, CODIGO) values (?, ?, ?, ?, ?)
+ Update 0: update ENCUESTA set PREGUNTA1=?, PREGUNTA2=?, PREGUNTA3=?, PREGUNTA4=? where CODIGO=?
+ Delete 0: delete from ENCUESTA where CODIGO=?
+Static SQL for entity: co.edu.udea.iw.dto.Cliente
+ Version select: select CEDULA from clientes where CEDULA =?
+ Snapshot select: select cliente_.CEDULA, cliente_.NOMBRES as NOMBRES10_, cliente_.APELLIDOS as APELLIDOS10_, cliente_.EMAIL as EMAIL10_, cliente_.TELEFONO as TELEFONO10_, cliente_.DIRECCION as DIRECCION10_ from clientes cliente_ where cliente_.CEDULA=?
+ Insert 0: insert into clientes (NOMBRES, APELLIDOS, EMAIL, TELEFONO, DIRECCION, CEDULA) values (?, ?, ?, ?, ?, ?)
+ Update 0: update clientes set NOMBRES=?, APELLIDOS=?, EMAIL=?, TELEFONO=?, DIRECCION=? where CEDULA=?
+ Delete 0: delete from clientes where CEDULA=?
+Static SQL for entity: co.edu.udea.iw.dto.Peticion
+ Version select: select CODIGO, CLIENTE from peticiones where CODIGO =? and CLIENTE =?
+ Snapshot select: select peticion_.CODIGO, peticion_.CLIENTE, peticion_.TEXTO as TEXTO12_, peticion_.FECHACREACION as FECHACRE4_12_, peticion_.RESUELTO as RESUELTO12_ from peticiones peticion_ where peticion_.CODIGO=? and peticion_.CLIENTE=?
+ Insert 0: insert into peticiones (TEXTO, FECHACREACION, RESUELTO, CODIGO, CLIENTE) values (?, ?, ?, ?, ?)
+ Update 0: update peticiones set TEXTO=?, FECHACREACION=?, RESUELTO=? where CODIGO=? and CLIENTE=?
+ Delete 0: delete from peticiones where CODIGO=? and CLIENTE=?
+Static SQL for entity: co.edu.udea.iw.dto.Rol
+ Version select: select CODIGO from roles where CODIGO =?
+ Snapshot select: select rol_.CODIGO, rol_.NOMBRE as NOMBRE13_ from roles rol_ where rol_.CODIGO=?
+ Insert 0: insert into roles (NOMBRE, CODIGO) values (?, ?)
+ Update 0: update roles set NOMBRE=? where CODIGO=?
+ Delete 0: delete from roles where CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Usuario [NONE]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Usuario [READ]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Usuario [UPGRADE]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [UPGRADE_NOWAIT]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [FORCE]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [PESSIMISTIC_READ]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Usuario [PESSIMISTIC_WRITE]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [PESSIMISTIC_FORCE_INCREMENT]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=? for update
+Static select for entity co.edu.udea.iw.dto.Usuario [OPTIMISTIC]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Usuario [OPTIMISTIC_FORCE_INCREMENT]: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Usuario: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Usuario: select usuario0_.LOGIN as LOGIN14_0_, usuario0_.NOMBRES as NOMBRES14_0_, usuario0_.APELLIDOS as APELLIDOS14_0_, usuario0_.CONTRASENA as CONTRASENA14_0_, usuario0_.ROL as ROL14_0_ from usuarios usuario0_ where usuario0_.LOGIN=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [NONE]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [READ]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [UPGRADE]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [UPGRADE_NOWAIT]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [FORCE]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [PESSIMISTIC_READ]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Encuesta [PESSIMISTIC_WRITE]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [PESSIMISTIC_FORCE_INCREMENT]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Encuesta [OPTIMISTIC]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Encuesta [OPTIMISTIC_FORCE_INCREMENT]: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Encuesta: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Encuesta: select encuesta0_.CODIGO as CODIGO11_0_, encuesta0_.PREGUNTA1 as PREGUNTA2_11_0_, encuesta0_.PREGUNTA2 as PREGUNTA3_11_0_, encuesta0_.PREGUNTA3 as PREGUNTA4_11_0_, encuesta0_.PREGUNTA4 as PREGUNTA5_11_0_ from ENCUESTA encuesta0_ where encuesta0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Cliente [NONE]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Cliente [READ]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Cliente [UPGRADE]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [UPGRADE_NOWAIT]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [FORCE]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [PESSIMISTIC_READ]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Cliente [PESSIMISTIC_WRITE]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [PESSIMISTIC_FORCE_INCREMENT]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=? for update
+Static select for entity co.edu.udea.iw.dto.Cliente [OPTIMISTIC]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Cliente [OPTIMISTIC_FORCE_INCREMENT]: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Cliente: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Cliente: select cliente0_.CEDULA as CEDULA10_0_, cliente0_.NOMBRES as NOMBRES10_0_, cliente0_.APELLIDOS as APELLIDOS10_0_, cliente0_.EMAIL as EMAIL10_0_, cliente0_.TELEFONO as TELEFONO10_0_, cliente0_.DIRECCION as DIRECCION10_0_ from clientes cliente0_ where cliente0_.CEDULA=?
+Static select for entity co.edu.udea.iw.dto.Peticion [NONE]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Peticion [READ]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Peticion [UPGRADE]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [UPGRADE_NOWAIT]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [FORCE]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [PESSIMISTIC_READ]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Peticion [PESSIMISTIC_WRITE]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [PESSIMISTIC_FORCE_INCREMENT]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=? for update
+Static select for entity co.edu.udea.iw.dto.Peticion [OPTIMISTIC]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Peticion [OPTIMISTIC_FORCE_INCREMENT]: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Peticion: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Peticion: select peticion0_.CODIGO as CODIGO12_0_, peticion0_.CLIENTE as CLIENTE12_0_, peticion0_.TEXTO as TEXTO12_0_, peticion0_.FECHACREACION as FECHACRE4_12_0_, peticion0_.RESUELTO as RESUELTO12_0_ from peticiones peticion0_ where peticion0_.CODIGO=? and peticion0_.CLIENTE=?
+Static select for entity co.edu.udea.iw.dto.Rol [NONE]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Rol [READ]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Rol [UPGRADE]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [UPGRADE_NOWAIT]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [FORCE]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [PESSIMISTIC_READ]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=? lock in share mode
+Static select for entity co.edu.udea.iw.dto.Rol [PESSIMISTIC_WRITE]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [PESSIMISTIC_FORCE_INCREMENT]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=? for update
+Static select for entity co.edu.udea.iw.dto.Rol [OPTIMISTIC]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for entity co.edu.udea.iw.dto.Rol [OPTIMISTIC_FORCE_INCREMENT]: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for action ACTION_MERGE on entity co.edu.udea.iw.dto.Rol: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.iw.dto.Rol: select rol0_.CODIGO as CODIGO13_0_, rol0_.NOMBRE as NOMBRE13_0_ from roles rol0_ where rol0_.CODIGO=?
+registered: efed654f-2eb3-495f-97be-555734ce6b74 (unnamed)
+Not binding factory to JNDI, no JNDI name configured
+instantiated session factory
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Finished creating instance of bean 'sessionFactory'
+Creating shared instance of singleton bean 'transactionManager'
+Creating instance of bean 'transactionManager'
+Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'dataSource'
+Returning cached instance of singleton bean 'sessionFactory'
+Invoking afterPropertiesSet() on bean with name 'transactionManager'
+Finished creating instance of bean 'transactionManager'
+Creating shared instance of singleton bean 'clienteDao'
+Creating instance of bean 'clienteDao'
+Eagerly caching bean 'clienteDao' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'clienteDao'
+Creating shared instance of singleton bean 'usuarioDao'
+Creating instance of bean 'usuarioDao'
+Eagerly caching bean 'usuarioDao' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'usuarioDao'
+Creating shared instance of singleton bean 'peticionesDao'
+Creating instance of bean 'peticionesDao'
+Eagerly caching bean 'peticionesDao' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'peticionesDao'
+Creating shared instance of singleton bean 'encuestaDao'
+Creating instance of bean 'encuestaDao'
+Eagerly caching bean 'encuestaDao' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'encuestaDao'
+Creating shared instance of singleton bean 'rolDao'
+Creating instance of bean 'rolDao'
+Eagerly caching bean 'rolDao' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'sessionFactory'
+Finished creating instance of bean 'rolDao'
+Creating shared instance of singleton bean 'clienteImpl'
+Creating instance of bean 'clienteImpl'
+Eagerly caching bean 'clienteImpl' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'clienteDao'
+Finished creating instance of bean 'clienteImpl'
+Creating shared instance of singleton bean 'usuarioImpl'
+Creating instance of bean 'usuarioImpl'
+Eagerly caching bean 'usuarioImpl' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'usuarioDao'
+Returning cached instance of singleton bean 'rolDao'
+Finished creating instance of bean 'usuarioImpl'
+Creating shared instance of singleton bean 'peticionImpl'
+Creating instance of bean 'peticionImpl'
+Eagerly caching bean 'peticionImpl' to allow for resolving potential circular references
+No bean named 'peticionDao' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@6ef134: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'peticionImpl' defined in class path resource [configuracion.xml]: Cannot resolve reference to bean 'peticionDao' while setting bean property 'peticionDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:68)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:86)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:259)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:261)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:219)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 43 more
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6ef134: defining beans [dataSource,sessionFactory,transactionManager,clienteDao,usuarioDao,peticionesDao,encuestaDao,rolDao,clienteImpl,usuarioImpl,peticionImpl,encuestaImpl,rolImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Invoking destroy() on bean with name 'sessionFactory'
+Closing Hibernate SessionFactory
+closing
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a48474] to prepare test instance [co.edu.udea.iw.impl.EncuestaImplTest@154e218]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:259)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:261)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:219)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'peticionImpl' defined in class path resource [configuracion.xml]: Cannot resolve reference to bean 'peticionDao' while setting bean property 'peticionDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:68)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:86)
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'peticionDao' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 43 more
+afterTestClass(): class [co.edu.udea.iw.impl.EncuestaImplTest]
+After test class: context [DefaultTestContext@19a81e8 testClass = EncuestaImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1629756 testClass = EncuestaImplTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], dirtiesContext [false].

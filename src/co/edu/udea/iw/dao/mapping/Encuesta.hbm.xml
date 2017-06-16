@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29-abr-2017 20:05:08 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="co.edu.udea.iw.dto.Encuesta" table="ENCUESTA">
+        <id name="codigo" type="java.lang.String">
+            <column name="CODIGO" precision="12"/>
+            <generator class="assigned" />
+        </id>
+        
+        <property name="pregunta1" type="java.lang.Integer">
+            <column name="PREGUNTA1" length="1" not-null="true"/>
+        </property>
+        
+        <property name="pregunta2" type="java.lang.Integer">
+            <column name="PREGUNTA2" length="1" not-null="true"/>
+        </property>
+        
+        <property name="pregunta3" type="java.lang.Integer">
+            <column name="PREGUNTA3" length="1" not-null="true" />
+        </property>
+        
+        <property name="pregunta4" type="java.lang.Integer">
+            <column name="PREGUNTA4" length="1" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
